@@ -6,10 +6,21 @@ module.exports = function(app){
 	});
 
 	app.get('/teste', function(req, res){
-  console.log('Recebida requisicao de teste na porta 3000.')
+  console.log('Recebida requisicao de teste.')
   res.send('OK.');
 });
 
+
+
+app.post("/pagamentos/pagamento",function(req, res) {
+    	
+  console.log('Recebida requisicao de POST .')
+	
+	var pagamento = req.body;
+	console.log('Dados de pagamento/n');
+	console.log(pagamento);
+	res.send('ok');
+  });
 
 
 
