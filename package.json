@@ -1,0 +1,23 @@
+{
+  "name": "payfast",
+  "version": "1.0.0",
+  "description": "Sistema para aprendizado de nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edabruzzo/payfast_2.git"
+  },
+  "author": "Emmanuel D'Abruzzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edabruzzo/payfast_2/issues"
+  },
+  "homepage": "https://github.com/edabruzzo/payfast_2#readme",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.17.1"
+  }
+}
